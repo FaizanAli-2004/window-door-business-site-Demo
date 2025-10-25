@@ -6,13 +6,13 @@ It demonstrates JavaScript-based DOM manipulation, form validation, and a dynami
 ---
 
 
-## 🚀 Live Demo
+## 🚀 Live Website
 🔗 **Check out the live version of real website here:** [Live Website](https://primewindowsanddoors.uk/) 
 
 ---
 
 ## 🚀 Features
-- Dynamic gallery generation using vanilla JavaScript
+- Dynamic gallery generation using JavaScript
 - Form validation without external libraries
 - Navigation highlighting based on current path
 - Clean, responsive CSS layout
@@ -22,7 +22,7 @@ It demonstrates JavaScript-based DOM manipulation, form validation, and a dynami
 ## 🧰 Built With
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)  
+- JavaScript
 
 ---
 
