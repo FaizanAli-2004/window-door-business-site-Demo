@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Front-End Project Demo</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="#" class="nav-link">Gallery</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="gallery-section">
+      <h2>Dynamic Gallery Example</h2>
+      <div id="gallery-container" class="row"></div>
+    </section>
+
+    <section id="contact-section">
+      <h2>Contact Form (Validation Demo)</h2>
+      <form id="contactForm" action="#" method="POST" onsubmit="return validateForm(event)">
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Your name" />
+        <span id="nameError" class="error-msg"></span>
+
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="Your email" />
+        <span id="emailError" class="error-msg"></span>
+
+        <label>Message:</label>
+        <textarea id="message" placeholder="Your message"></textarea>
+        <span id="messageError" class="error-msg"></span>
+
+        <input type="submit" value="Send Message" />
+      </form>
+      <p id="form-message-success" class="success-msg">✅ Message sent successfully!</p>
+    </section>
+  </main>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
